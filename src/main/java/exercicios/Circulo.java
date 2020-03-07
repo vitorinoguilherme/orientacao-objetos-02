@@ -16,7 +16,7 @@ public class Circulo {
         return 2 * Math.PI * raio;
     }
 
-    public void getRaio(Double raio) throws IllegalAccessException {
+    public void setRaio(Double raio) throws IllegalAccessException {
         if ( raio <= 0 )
             throw new IllegalArgumentException("Valor deve ser maior que zero.");
         this.raio = raio;
